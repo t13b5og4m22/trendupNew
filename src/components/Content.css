@@ -1,0 +1,61 @@
+.w-50 {
+    width: 50%!important;
+    transition: all 2s;
+    display: flex!important;
+}
+
+.Content {
+    height: 100vh;
+    display: flex;
+    overflow: none;
+}
+
+.Content h2 {
+    color: #EAEFF3;
+}
+
+.Content h6 {
+    color: #010101;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Content textarea {
+    width: 50%;
+    height: 50%;
+    outline: none;
+    padding: 16px;
+    resize: none;
+    color: #E65C4F;
+    border-radius: 8px;
+}
+
+.Content .content__left {
+    width: 100%;
+    background: #33678A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Content .content__right {
+    display: none;
+    width: 0%;
+    background: #78A6C9;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.Content .content__left .runcode-btn {
+    border-radius: 8px;
+    background: #78A6C9;
+    padding: 8px 16px;
+    color: #EAEFF3;
+}
+
+.Content .content__left .runcode-btn:hover {
+    cursor: pointer;
+}
